@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ALC 4</string>
+    <string name="title">Welcome to ALC 4.0</string>
+    <string name="description">The Andela Learning Community (ALC) is an
+        awesome community empowering the next generation of African technology leaders.
+        click the button below to learn more about ALC
+    </string>
+    <string name="btn_aboutALC">About ALC</string>
+    <string name="btn_profile">My profile</string>
+    <string name="txt_profile">Check out my profile below:</string>
+    <string name="profile_title">My profile</string>
+    <string name="name">Stanslous Yegon</string>
+    <string name="track">Track: Android</string>
+    <string name="country">Country: Kenya</string>
+    <string name="email">E-mail: stann09@gmail.com</string>
+    <string name="phone">Phone number: +254780918037</string>
+    <string name="slack">Slack UserName: stanozzy</string>
+    <string name="avatar">my avatar</string>
+</resources>
