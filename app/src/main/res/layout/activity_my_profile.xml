@@ -7,10 +7,26 @@
     android:background="#F9FBE7"
     tools:context=".MyProfile">
 
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:background="#F9FBE7"
+        android:fontFamily="@font/amarante"
+        android:text="@string/email"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCountry" />
+
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="215dp"
-        android:layout_height="216dp"
+        android:layout_width="202dp"
+        android:layout_height="190dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/avatar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,9 +62,9 @@
         android:text="@string/phone"
         android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewCountry" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewEmail" />
 
     <TextView
         android:id="@+id/textViewCountry"
@@ -59,7 +75,7 @@
         android:layout_marginEnd="8dp"
         android:background="#F9FBE7"
         android:fontFamily="@font/amarante"
-        android:text="@string/email"
+        android:text="@string/country"
         android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

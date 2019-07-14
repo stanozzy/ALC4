@@ -12,7 +12,6 @@ import android.widget.ProgressBar;
 
 public class AboutAlc extends AppCompatActivity {
 
-    ProgressBar pb;
     WebView wv;
 
     @Override
